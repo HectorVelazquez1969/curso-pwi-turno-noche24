@@ -2,7 +2,13 @@
 
 
 
-h2 {color: rgb(35, 15, 125);font-family: Arial, Helvetica, sans-serif;font-size: 20px;}/* este es un selector por etiqueta que solo va a afectar a la etiqueta que aplicamos en este caso es h2 espacio y luego la llave. En CSS cuando escribimos el selector si esta bien lo pone en color amarillo si lo pone en azul es porque esta mal y le falta algo */
+h2 {color: rgb(243, 243, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    display: inline-block;
+    background: rgb(71, 31, 214);
+}/* este es un selector por etiqueta que solo va a afectar a la etiqueta que aplicamos en este caso es h2 espacio y luego la llave. En CSS cuando escribimos el selector si esta bien lo pone en color amarillo si lo pone en azul es porque esta mal y le falta algo */
 
 h3 {background-color: rgb(147, 214, 31);
     font-size: 50px;text-align: center;
@@ -27,5 +33,7 @@ background-color: rgb(46, 31, 214);
 width: 50%;
 }
 
+a {display: block;
+color: aliceblue;font-size: 20px;}/*display block hace que el formato que era de linea (horizontal) lo transforma en vertical y por el contrario si estan vertica y queres ponerlo horizontal la propiedad es DISPLAY IN LINE BLOCK*/
 
 
