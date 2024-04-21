@@ -1,0 +1,31 @@
+* {margin: 0;padding: 0; background-color: brown;}/* el asterisco funciona como selector universal y gralmente se coloca al inicio con margin y pading cero para que elimine las configuraciones que tiene por defecto*/
+
+
+
+h2 {color: rgb(35, 15, 125);font-family: Arial, Helvetica, sans-serif;font-size: 20px;}/* este es un selector por etiqueta que solo va a afectar a la etiqueta que aplicamos en este caso es h2 espacio y luego la llave. En CSS cuando escribimos el selector si esta bien lo pone en color amarillo si lo pone en azul es porque esta mal y le falta algo */
+
+h3 {background-color: rgb(147, 214, 31);
+    font-size: 50px;text-align: center;
+}
+ 
+
+.estiloPropio {color: rgb(249, 248, 251);font-style: italic;font-size: 20px;}/*esta es un selector por etiqueta que se inicia con un punto e inmediatamente despues el nombre que elegimos para nombrar a las etiquetas que agrupamos para darle los mismos estilos. Es comun para no equivocarse en el HTML hacer doble click en el nombre elegido para la classe copiarla y pegarla en el ccs */
+
+.Contenedor{ margin: auto;width: 50%;}
+
+#unico{background:green ;font-size: large;} /*para el selector ID colocamos en la etiqueta de apertura de la etiqueta del html la sigla id y le damos un nombre y luego vamos al ccs y colocamos un numeral y pegamos este nombre que elegimos abrimos llaves y colocamos las propiedades*/
+
+button { padding: 2px ;
+border-color: chartreuse;
+border-radius: 5px;
+border-width: 7px;
+border-style: solid;
+background-color: rgb(46, 31, 214);
+    font-size: 15px;
+    font-style: italic ;
+    font-size: 20px;
+width: 50%;
+}
+
+
+
