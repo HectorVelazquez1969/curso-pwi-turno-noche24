@@ -1,0 +1,28 @@
+*{box-sizing: border-box;
+margin: 0    ;}
+
+body{ background-color: cadetblue;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.nav{background-color: #293241;
+height: 80px;
+color: #fff;}
+
+.nav{font-size: 2.5 em;
+font-weight: 900
+;}
+
+.nav-contenedor {
+    display: flex;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item:hover{color: chocolate;
+    transform: scale(1.1 , 1.2);
+    transition: all .5s 
+
+}
