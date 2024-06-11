@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ej.css" />
+  </head>
+  <body>
+    <h1 class="titulo1">Este es el titulo principal</h1>
+    <article class="articulo1">
+      <h2 class="subtitulo1">Este es un subtitulo</h2>
+      <p class="parrafo1">Este es el texto original</p>
+      <a href="#" id="enlace1">Este es un enlace</a>
+      <br /><br />
+      <img
+        src="./elprincipito.png"
+        width="30%"
+        alt="el principito"
+        class="img1"
+        id="img1"
+      />
+    </article>
+
+    <!-- <p id="miParrafo">Este es el texto original.-</p> -->
+    <!-- <button onclick="cambiarTexto()">Cambiar Texto</button> -->
+    <!-- <script src="ejemplo.js"></script> -->
+
+    <button  id="boton" onclick="mostrar()" >Mostrar imagen></button><br><br>
+    <div id="img">
+      <img src="elprincipito.png" alt="el principito" width="90%"><br><br>
+      <button id="boton" onclick="ocultar()">Ocultar imagen</button>
+    </div>
+
+    <!-- *<script> -->
+    //Seleccionamos el elemento con el id "titulo1" let titulo1 =
+    document.getElementsByClassName("titulo1");
+    console.log(document.getElementsByClassName("titulo1"));
+    <!-- </script> -->
+  </body>
+</html>
